@@ -1,13 +1,15 @@
 # Streaming_Fuel_Price_Data
 
 # About the project
+
+This project consists of creating a whole pipeline diffusing streaming fuel prices in the area of france. The project is devolopped with kafka, spark, elasticsearch and kibana for visualization.
+
 ![img](https://github.com/arige160/Streaming_Fuel_Price_Data/blob/master/Docs/Number_of_records.jpg)
 ![img](https://github.com/arige160/Streaming_Fuel_Price_Data/blob/master/Docs/Heatmap.jpg)
 ![img](https://github.com/arige160/Streaming_Fuel_Price_Data/blob/master/Docs/graph.jpg)
 ![img](https://github.com/arige160/Streaming_Fuel_Price_Data/blob/master/Docs/graphs.jpg)
 
 
-This project consists of creating a whole pipeline diffusing streaming fuel prices in the area of france. The project is devolopped with kafka, spark, elasticsearch and kibana for visualization.
 
 # Prerequisites:
 The project is was devoloped with the following Prerequisites:
