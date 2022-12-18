@@ -1,0 +1,20 @@
+1/ launch zookeeper:
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+2/ launch kafka :
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+3/ launch spark:
+spark-shell
+
+4/ launch master:
+spark-class org.apache.spark.deploy.master.Master -h
+
+5/ start worker
+spark-class org.apache.spark.deploy.worker.Worker spark://192.168.56.1:7077 -c 4 -m 8G
+6/ start elasticsearch
+7/ start kibana
+8/launch kibana
+9/ launch producer: 
+python producer.py
+10/ launch spark consumer: 
+spark-submit --packages org.apache.spark:spark-streaming-kafka-0-8-assembly_2.11:2.4.6 --master spark://192.168.56.1:7077 --deploy-mode client spark1.py
