@@ -1,7 +1,10 @@
 # Streaming_Fuel_Price_Data
-# Streaming_Fuel_Price
+
 # About the project
-![img](.jpg)
+![img](https://github.com/arige160/Streaming_Fuel_Price_Data/blob/master/Docs/Number_of_records.jpg)
+![img](https://github.com/arige160/Streaming_Fuel_Price_Data/blob/master/Docs/Heatmap.jpg)
+![img](https://github.com/arige160/Streaming_Fuel_Price_Data/blob/master/Docs/graph.jpg)
+![img](https://github.com/arige160/Streaming_Fuel_Price_Data/blob/master/Docs/graphs.jpg)
 
 
 This project consists of creating a whole pipeline diffusing streaming fuel prices in the area of france. The project is devolopped with kafka, spark, elasticsearch and kibana for visualization.
@@ -33,6 +36,6 @@ This project is composed of the following main steps:
   * The variation of fuel prices based on cities.
             
  # Contribution:
-    * Flihi Arij 
-    * Sadkaoui Marwa
+  * Flihi Arij 
+  * Sadkaoui Marwa
 INDP3_AIM, SUPCOM 2023_2022
