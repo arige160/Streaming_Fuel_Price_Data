@@ -1,4 +1,3 @@
-# Streaming_Fuel_Price_Data
 
 # About the project
 
