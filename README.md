@@ -12,7 +12,7 @@ This project consists of creating a whole pipeline diffusing streaming fuel pric
 
 
 # Prerequisites:
-The project is was devoloped with the following Prerequisites:
+The project is was developed with the following Prerequisites:
   * Kafka 3.2.0
   * Scala 
   * JDK 8.0
@@ -27,14 +27,14 @@ This project is composed of the following main steps:
  Data ingestion from a streaming data API and training a machine learning model to predict the fuel price based on its type(Gazoal, ..).
  
   ###### Data indexing to elasticsearch:
- After creating an index within elasticsearch, we wreated a spark consumer in order to read from kafka topic and send data into the index in real time.
+ After creating an index within elasticsearch, we wrote a spark consumer in order to read from kafka topic and send data into the index in real time.
  
   ###### Visualization:
   
  In order to visualize the streaming data, we used Kibana dashboard. Creating costumized visualizations:
  
   * Number of records: keep up with uploaded records into elasticsearch.
-  * A heatmap        : locate fuel station in france, specifying the fuel name and their prices( indicated with radius of the cercle).
+  * A heatmap        : locate fuel stations in france, specifying the fuel name and their prices( indicated with the radius of the circle).
   * The variation of fuel prices based on cities.
             
  # Contribution:
